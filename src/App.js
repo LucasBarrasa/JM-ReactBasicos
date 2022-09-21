@@ -1,4 +1,6 @@
 import logo from './logo.svg';
+import Estado from './components/Estado';
+import RenderizadoCondicional from './components/RenderizadoCondicional';
 import './App.css';
 
 function App() {
@@ -17,6 +19,12 @@ function App() {
         >
           Learn React
         </a>
+        <section>
+          <hr/>
+          <Estado/>
+          <hr/>
+          <RenderizadoCondicional/>
+        </section>
       </header>
     </div>
   );
